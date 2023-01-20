@@ -8,11 +8,43 @@
       content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./scss/app.scss">
   </head>
   <body>
     <div class="main">
       <div class="emoji mb-6">💣🤯💥</div>
       <button class="button">Boom?</button>
     </div>
+    
+    <script>
+      window.addEventListener('click', () => {
+          
+         const article1 = document.createElement('article');
+         article1.classList.add("message");
+         article1.textContent = "sample text";
+         document.body.appendChild(article1);
+         
+         const article2 = document.createElement('article');
+         article2.classList.add("message");
+         article2.textContent = "sample text";
+         document.body.appendChild(article2);
+
+         const article3 = document.createElement('article');
+         article3.classList.add("message");
+         article3.textContent = "sample text";
+         document.body.appendChild(article3);
+
+         const article4 = document.createElement('article');
+         article4.classList.add("message");
+         article4.textContent = "sample text";
+         document.body.appendChild(article4);
+
+         const article5 = document.createElement('article');
+         article5.classList.add("message");
+         article5.textContent = "sample text";
+         document.body.appendChild(article5);
+      });
+    </script>
+    <script src="./js/app.js"></script>
   </body>
 </html>
